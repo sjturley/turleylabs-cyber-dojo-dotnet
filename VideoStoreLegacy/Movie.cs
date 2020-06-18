@@ -1,13 +1,13 @@
 public class Movie {
 
-    public static final int  CHILDRENS = 2;
-    public static final int  REGULAR = 0;
-    public static final int  NEW_RELEASE = 1;
+    public const int  CHILDRENS = 2;
+    public const int  REGULAR = 0;
+    public const int  NEW_RELEASE = 1;
 
-    private String title;
+    private string title;
     private int priceCode;
 
-    public Movie(String title, int priceCode) {
+    public Movie(string title, int priceCode) {
         this.title = title;
         this.priceCode = priceCode;
     }
@@ -20,7 +20,7 @@ public class Movie {
         priceCode = arg;
     }
 
-    public String getTitle (){
+    public string getTitle (){
         return title;
     };
 }

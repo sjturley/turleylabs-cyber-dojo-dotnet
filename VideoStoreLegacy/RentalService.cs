@@ -1,7 +1,7 @@
-import java.util.List;
+using System.Collections.Generic;
 
 class RentalService {
     public static List<Rental> getRentals() {
-      throw new RuntimeException("I can't run in tests.");
+      throw new Exception("I can't run in tests.");
     }
 }

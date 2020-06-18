@@ -1,22 +1,22 @@
-import java.util.List;
+using System.Collections.Generic;
 
 class Customer {
-    private String name;
+    private string name;
 
-    public Customer(String name) {
+    public Customer(string name) {
         this.name = name;
     }
 
-    public String getName() {
+    public string getName() {
         return name;
     }
 
-    public String statement() {
+    public string statement() {
         double totalAmount = 0;
         int frequentRenterPoints = 0;
-        String result = "Rental Record for " + getName() + "\n";
+        string result = "Rental Record for " + getName() + "\n";
         List<Rental> rentals = RentalService.getRentals();
-        for (Rental each : rentals) {
+        foreach (Rental each in rentals) {
             double thisAmount = 0;
 
             //determine amounts for each line
@@ -41,12 +41,12 @@ class Customer {
                     each.getDaysRented() > 1) frequentRenterPoints++;
 
             result += "\t" + each.getMovie().getTitle() + "\t" +
-                    String.valueOf(thisAmount) + "\n";
+                    thisAmount + "\n";
             totalAmount += thisAmount;
 
         }
-        result += "Amount owed is " + String.valueOf(totalAmount) + "\n";
-        result += "You earned " + String.valueOf(frequentRenterPoints) +
+        result += "Amount owed is " + totalAmount + "\n";
+        result += "You earned " + frequentRenterPoints +
                 " frequent renter points";
         return result;
     }

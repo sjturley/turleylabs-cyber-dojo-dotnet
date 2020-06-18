@@ -1,7 +1,7 @@
 using NUnit.Framework;
 
 [TestFixture]
-public class FizzBuzzTest
+public class GildedRoseTest
 {
     [Test]
     public void approveGildedRose()

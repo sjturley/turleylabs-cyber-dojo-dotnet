@@ -1,0 +1,17 @@
+  {
+    "display_name": "Video Store Refactoring",
+    "image_name": "cyberdojofoundation/java_approval",
+    "visible_filenames":
+    [
+      "Customer.java",
+      "Movie.java",
+      "Rental.java",
+      "VideoStoreTest.java",
+      "cyber-dojo.sh",
+      "VideoStoreTest.approveCustomerStatement.approved.txt"
+    ],
+    "filename_extension" : [ ".java", ".txt" ],
+    "max_seconds": 10,
+    "tab_size": 4,
+    "hidden_filenames": []
+  }

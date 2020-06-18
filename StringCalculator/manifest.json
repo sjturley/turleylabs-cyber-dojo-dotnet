@@ -1,0 +1,19 @@
+  {
+    "display_name": "TDD String Calculator",
+    "image_name": "cyberdojofoundation/java_junit",
+    "visible_filenames":
+    [
+      "StringCalculator.java",
+      "StringCalculatorTest.java",
+      "cyber-dojo.sh",
+      "readme.txt"
+    ],
+    "filename_extension" : [ ".java", ".txt" ],
+    "max_seconds": 10,
+    "tab_size": 4,
+    "hidden_filenames": [],
+    "progress_regexs": [
+      "Failures (\\d)\\:",
+      "^\\[\\s+(\\d+) tests successful\\s+\\]"
+    ]
+  }

@@ -1,0 +1,15 @@
+  {
+    "display_name": "TDD Fizz Buzz C#",
+    "image_name": "cyberdojofoundation/csharp_nunit",
+    "visible_filenames":
+    [
+      "FizzBuzz.cs",
+      "FizzBuzzTest.cs",
+      "cyber-dojo.sh",
+      "readme.txt"
+    ],
+    "filename_extension" : [ ".cs", ".txt" ],
+    "max_seconds": 10,
+    "tab_size": 4,
+    "hidden_filenames": []
+  }

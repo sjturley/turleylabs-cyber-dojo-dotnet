@@ -12,7 +12,7 @@ public class Item {
         this.quality = quality;
     }
 
-    public String toString() {
+    public string toString() {
         return "Item{" +
                 "name='" + name + '\'' +
                 ", sellIn=" + sellIn +

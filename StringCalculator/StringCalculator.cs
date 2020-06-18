@@ -1,3 +1,6 @@
-public class StringCalculator {
+using System;
+
+public class StringCalculator 
+{
     
 }

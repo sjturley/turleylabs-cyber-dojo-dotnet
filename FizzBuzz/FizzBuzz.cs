@@ -1,5 +1,7 @@
-class FizzBuzz {
-    public string fizzBuzz(int number) {
+class FizzBuzz 
+{
+    public string Say(int number) 
+    {
         return null;
     }
 }

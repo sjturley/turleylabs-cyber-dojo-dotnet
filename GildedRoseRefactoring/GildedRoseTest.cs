@@ -1,10 +1,11 @@
 using NUnit.Framework;
+using System;
 
 [TestFixture]
 public class GildedRoseTest
 {
     [Test]
-    public void approveGildedRose()
+    public void ApproveGildedRose()
     {
     }
 }

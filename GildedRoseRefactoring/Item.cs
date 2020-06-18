@@ -1,4 +1,7 @@
-public class Item {
+using System;
+
+public class Item 
+{
 
     public string name;
 
@@ -6,13 +9,15 @@ public class Item {
 
     public int quality;
 
-    public Item(string name, int sellIn, int quality) {
+    public Item(string name, int sellIn, int quality) 
+    {
         this.name = name;
         this.sellIn = sellIn;
         this.quality = quality;
     }
 
-    public string toString() {
+    public string ToString() 
+    {
         return "Item{" +
                 "name='" + name + '\'' +
                 ", sellIn=" + sellIn +

@@ -1,14 +1,14 @@
   {
-    "display_name": "Gilded Rose Legacy",
-    "image_name": "steve/approvals-coverage",
+    "display_name": "Gilded Rose Legacy C#",
+    "image_name": "cyberdojofoundation/csharp_nunit",
     "visible_filenames":
     [
-      "GildedRose.java",
-      "Item.java",
-      "GildedRoseTest.java",
+      "GildedRose.cs",
+      "Item.cs",
+      "GildedRoseTest.cs",
       "cyber-dojo.sh"
     ],
-    "filename_extension" : [ ".java", ".txt" ],
+    "filename_extension" : [ ".cs", ".txt" ],
     "max_seconds": 20,
     "tab_size": 4,
     "hidden_filenames": []

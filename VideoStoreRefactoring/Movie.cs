@@ -1,28 +1,35 @@
-public class Movie {
+using System;
 
-    public static final int  CHILDRENS = 2;
-    public static final int  REGULAR = 0;
-    public static final int  NEW_RELEASE = 1;
+public class Movie 
+{
 
-    private String title;
+    public const int  CHILDRENS = 2;
+    public const int  REGULAR = 0;
+    public const int  NEW_RELEASE = 1;
+
+    private string title;
     private int priceCode;
 
-    public Movie(String title, int priceCode) {
+    public Movie(string title, int priceCode) 
+    {
         this.title = title;
         this.priceCode = priceCode;
     }
 
-    public int getPriceCode() {
+    public int GetPriceCode() 
+    {
         return priceCode;
     }
 
-    public void setPriceCode(int arg) {
+    public void SetPriceCode(int arg) 
+    {
         priceCode = arg;
     }
 
-    public String getTitle (){
+    public string GetTitle ()
+    {
         return title;
-    };
+    }
 }
 
 

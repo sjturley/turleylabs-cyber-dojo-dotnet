@@ -1,4 +1,7 @@
-public class Movie {
+using System;
+
+public class Movie 
+{
 
     public const int  CHILDRENS = 2;
     public const int  REGULAR = 0;
@@ -7,22 +10,26 @@ public class Movie {
     private string title;
     private int priceCode;
 
-    public Movie(string title, int priceCode) {
+    public Movie(string title, int priceCode) 
+    {
         this.title = title;
         this.priceCode = priceCode;
     }
 
-    public int getPriceCode() {
+    public int GetPriceCode() 
+    {
         return priceCode;
     }
 
-    public void setPriceCode(int arg) {
+    public void SetPriceCode(int arg) 
+    {
         priceCode = arg;
     }
 
-    public string getTitle (){
+    public string GetTitle ()
+    {
         return title;
-    };
+    }
 }
 
 

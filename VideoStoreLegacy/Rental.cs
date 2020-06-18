@@ -1,15 +1,23 @@
-class Rental {
+using System;
+
+class Rental 
+{
     private Movie movie;
     private int daysRented;
 
-    public Rental(Movie movie, int daysRented) {
+    public Rental(Movie movie, int daysRented) 
+    {
         this.movie = movie;
         this.daysRented = daysRented;
     }
-    public int getDaysRented() {
+    
+    public int GetDaysRented() 
+    {
         return daysRented;
     }
-    public Movie getMovie() {
+    
+    public Movie GetMovie() 
+    {
         return movie;
     }
 }

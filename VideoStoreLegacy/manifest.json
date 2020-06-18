@@ -1,17 +1,17 @@
   {
-    "display_name": "Video Store Legacy",
-    "image_name": "steve/approvals-coverage",
+    "display_name": "Video Store Legacy C#",
+    "image_name": "cyberdojofoundation/csharp_nunit",
     "visible_filenames":
     [
-      "Customer.java",
-      "Movie.java",
-      "Rental.java",
-      "RentalService.java",
-      "VideoStoreTest.java",
+      "Customer.cs",
+      "Movie.cs",
+      "Rental.cs",
+      "RentalService.cs",
+      "VideoStoreTest.cs",
       "cyber-dojo.sh",
       "readme.txt"
     ],
-    "filename_extension" : [ ".java", ".txt" ],
+    "filename_extension" : [ ".cs", ".txt" ],
     "max_seconds": 10,
     "tab_size": 4,
     "hidden_filenames": []

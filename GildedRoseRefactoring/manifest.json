@@ -1,15 +1,15 @@
   {
-    "display_name": "Gilded Rose Refactoring",
-    "image_name": "cyberdojofoundation/java_approval",
+    "display_name": "Gilded Rose Refactoring C#",
+    "image_name": "cyberdojofoundation/csharp_nunit",
     "visible_filenames":
     [
-      "GildedRose.java",
-      "Item.java",
-      "GildedRoseTest.java",
+      "GildedRose.cs",
+      "Item.cs",
+      "GildedRoseTest.cs",
       "cyber-dojo.sh",
       "GildedRoseTest.approveGildedRose.approved.txt"
     ],
-    "filename_extension" : [ ".java", ".txt" ],
+    "filename_extension" : [ ".cs", ".txt" ],
     "max_seconds": 10,
     "tab_size": 4,
     "hidden_filenames": []

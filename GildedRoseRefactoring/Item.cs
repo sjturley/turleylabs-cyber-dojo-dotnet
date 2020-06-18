@@ -16,7 +16,7 @@ public class Item
         this.quality = quality;
     }
 
-    public string ToString() 
+    public override string ToString() 
     {
         return "Item{" +
                 "name='" + name + '\'' +

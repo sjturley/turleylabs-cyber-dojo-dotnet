@@ -1,6 +1,6 @@
   {
     "display_name": "Video Store Refactoring C#",
-    "image_name": "steve/csharp-approvals-coverage",
+    "image_name": "leanklinker/cyber-dojo-c-sharp-xunit",
     "visible_filenames":
     [
       "Customer.cs",

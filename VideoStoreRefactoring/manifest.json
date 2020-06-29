@@ -1,6 +1,6 @@
   {
     "display_name": "Video Store Refactoring C#",
-    "image_name": "cyberdojofoundation/csharp_nunit",
+    "image_name": "steve/csharp-approvals-coverage",
     "visible_filenames":
     [
       "Customer.cs",

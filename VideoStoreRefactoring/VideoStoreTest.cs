@@ -1,13 +1,15 @@
 using System;
 
-using NUnit.Framework;
+using Xunit;
+using ApprovalTests;
+using ApprovalTests.Reporters;
 
-[TestFixture]
+[UseReporter(typeof(QuietReporter))]
 public class VideoStoreTest
 {
-    [Test]
+    [Fact]
     public void RENAME_ME()
     {
-        Assert.AreEqual(1, 0);
+        Approvals.Verify("Me");
     }
 }

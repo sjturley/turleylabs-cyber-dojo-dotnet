@@ -2,4 +2,5 @@
 
 set -e
 
-dotnet test ./fizzbuzz.csproj
+dotnet restore -s /packages
+dotnet test ./VideoStore.csproj

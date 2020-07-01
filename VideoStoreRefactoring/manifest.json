@@ -8,8 +8,7 @@
       "Rental.cs",
       "VideoStoreTest.cs",
       "cyber-dojo.sh",
-      "VideoStoreTest.approveCustomerStatement.approved.txt",
-      "VideoStore.csproj"
+      "VideoStoreTest.approveCustomerStatement.approved.txt"
     ],
     "filename_extension" : [ ".cs", ".txt" ],
     "max_seconds": 20,

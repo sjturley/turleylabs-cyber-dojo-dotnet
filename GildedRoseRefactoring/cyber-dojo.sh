@@ -8,10 +8,10 @@ function tidy_up()
 }
 
 NUNIT_PATH=/nunit/lib/net45
-export MONO_PATH=${NUNIT_PATH}
+export MONO_PATH=${NUNIT_PATH}:/approvalutils/lib/net461:/approvals/lib/net461:/emptyfiles/net461/
 
 mcs -t:library \
-  -r:${NUNIT_PATH}/nunit.framework.dll \
+  -r:${NUNIT_PATH}/nunit.framework.dll,/emptyfiles/net461/EmptyFiles.dll,/approvalutils/lib/net461/ApprovalUtilities.dll,/approvals/lib/net461/ApprovalTests.dll \
   -out:RunTests.dll *.cs
 
 if [ $? -eq 0 ]; then

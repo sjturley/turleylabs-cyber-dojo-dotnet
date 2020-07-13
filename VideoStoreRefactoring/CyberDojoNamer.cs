@@ -15,7 +15,7 @@ public class CyberDojoNamer : IApprovalNamer
     {
         get
         {
-            return "VideoStoreTest.approveCustomerStatement";
+            return "VideoStoreTest.ApproveCustomerStatement";
         }
     }
 }

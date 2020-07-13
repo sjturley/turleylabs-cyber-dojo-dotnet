@@ -31,6 +31,6 @@ public class VideoStoreTest
         Movie movie = new Movie("Star Wars", Movie.REGULAR);
         customer.AddRental (new Rental(movie, daysRented));
         movie.SetPriceCode(priceCode);
-        return customer.statement();
+        return customer.Statement();
     }
 }

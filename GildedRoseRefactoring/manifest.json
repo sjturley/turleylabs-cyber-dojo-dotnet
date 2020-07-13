@@ -7,7 +7,7 @@
       "Item.cs",
       "GildedRoseTest.cs",
       "cyber-dojo.sh",
-      "GildedRoseTest.approveGildedRose.approved.txt",
+      "GildedRoseTest.ApproveGildedRose.approved.txt",
       "CyberDojoNamer.cs"
     ],
     "filename_extension" : [ ".cs", ".txt" ],

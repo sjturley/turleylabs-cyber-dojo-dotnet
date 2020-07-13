@@ -8,7 +8,7 @@
       "Rental.cs",
       "VideoStoreTest.cs",
       "cyber-dojo.sh",
-      "VideoStoreTest.approveCustomerStatement.approved.txt",
+      "VideoStoreTest.ApproveCustomerStatement.approved.txt",
       "CyberDojoNamer.cs"
     ],
     "filename_extension" : [ ".cs", ".txt" ],

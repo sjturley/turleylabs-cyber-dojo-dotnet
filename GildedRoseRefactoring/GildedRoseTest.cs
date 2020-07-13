@@ -3,6 +3,7 @@ using System;
 
 using ApprovalTests;
 using ApprovalTests.Core;
+using ApprovalTests.Combinations;
 using ApprovalTests.Reporters;
 using ApprovalUtilities;
 

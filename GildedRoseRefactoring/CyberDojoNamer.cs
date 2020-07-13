@@ -15,7 +15,7 @@ public class CyberDojoNamer : IApprovalNamer
     {
         get
         {
-            return "GildedRoseTest.ApproveUpdateQuality";
+            return "GildedRoseTest.ApproveGildedRose";
         }
     }
 }

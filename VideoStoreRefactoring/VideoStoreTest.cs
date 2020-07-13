@@ -29,8 +29,9 @@ public class VideoStoreTest
     private string CreateCustomerStatement(int priceCode, int daysRented) {
         Customer customer = new Customer("Steve");
         Movie movie = new Movie("Star Wars", Movie.REGULAR);
-        customer.AddRental (new Rental(movie, daysRented));
         movie.SetPriceCode(priceCode);
+        customer.AddRental (new Rental(movie, daysRented));
+        customer.AddRental (new Rental(movie, daysRented + 1));
         return customer.Statement();
     }
 }

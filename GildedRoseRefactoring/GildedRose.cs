@@ -29,7 +29,7 @@ class GildedRose
                 {
                     items[i].quality = items[i].quality + 1;
 
-                    if (items[i].name != ("Backstage passes to a TAFKAL80ETC concert")) 
+                    if (items[i].name == ("Backstage passes to a TAFKAL80ETC concert")) 
                     {
                         if (items[i].sellIn < 11) 
                         {

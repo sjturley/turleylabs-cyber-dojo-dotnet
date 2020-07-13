@@ -19,23 +19,20 @@ public class GildedRoseTest
     [Test]
     public void ApproveGildedRose()
     {
-    }
-    
-    void approveGildedRose() {
-        String[] names = {"foo", "Aged Brie", "Backstage passes to a TAFKAL80ETC concert", "Sulfuras, Hand of Ragnaros"};
-        Integer[] sellins = { -1, 0, 12, 6, 2 };
-        Integer[] qualities = { 0, 1, 48, 49, 50 };
-        CombinationApprovals.verifyAllCombinations(
-                this::runGildedRose,
+        string[] names = {"foo", "Aged Brie", "Backstage passes to a TAFKAL80ETC concert", "Sulfuras, Hand of Ragnaros"};
+        int[] sellins = { -1, 0, 12, 6, 2 };
+        int[] qualities = { 0, 1, 48, 49, 50 };
+        CombinationApprovals.VerifyAllCombinations(
+                UpdateItems,
                 names,
                 sellins,
                 qualities);
     }
 
-    private Item runGildedRose(String name, int sellIn, int quality) {
+    private static Item UpdateItems(String name, int sellIn, int quality) {
         Item[] items = new Item[] { new Item(name, sellIn, quality) };
         GildedRose gildedRose = new GildedRose(items);
-        gildedRose.updateItems();
+        gildedRose.UpdateItems();
         return gildedRose.items[0];
     }
 }
